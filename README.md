@@ -103,7 +103,7 @@ Not money.
    - Entropy-weighted softmax consensus (EQ41)
 
 3. Lab access — FPGA, oscilloscope, RF equipment.
-   I will travel anywhere in India.
+   
 
 4. Professor introductions — distributed timing,
    GPS-denied nav, wireless mesh protocols.
