@@ -123,6 +123,5 @@ This paper presents UPTSS v1, a GPS-independent, fully wireless, peer-to-peer ti
 
 ## 📄 Paper
 **Read the full paper**: [Zenodo DOI](https://doi.org/10.5281/zenodo.21999029)  
-**Download PDF**: Upload in next step
 
 ## Citation
