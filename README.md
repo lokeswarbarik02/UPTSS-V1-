@@ -22,7 +22,7 @@ Core bandwidth problem:
   1M pairs × 20 bytes = 20 MB/cycle
   LoRa 250 kbps → 800s to transmit. Infeasible.
 
-Solution: Compute locally, transmit 104-byte summary only:
+Solution: Compute locally, transmit 112-byte summary only:
   μ (mean)         8B  → weighted consensus
   σ² (variance)    8B  → stability scoring
   skewness         8B  → bias detection
@@ -32,7 +32,7 @@ Solution: Compute locally, transmit 104-byte summary only:
   node_id          4B
   Ed25519 sig     64B
   ──────────────────
-  Total:         104B → 3.3ms on LoRa ✓
+  Total:         112B → 3.6ms on LoRa ✓
 
 Basis: (μ, σ², skew, n) are sufficient statistics for Gaussian timing errors (Fisher–Neyman theorem).
 
